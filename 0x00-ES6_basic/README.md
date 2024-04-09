@@ -1,6 +1,6 @@
 # 0x00. ES6 Basics
 
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/08806026ef621f900121.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240409%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240409T090318Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=bf5678c5bfea83b7f46f33c788984b9b3b1f98a46dae4040f4e56c559536e854" alt="arrow functions" width="100%" />
+<img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*8nfBRAssY0DuETYwdwyqqw.png" alt-"ES6" width="100%" />
 
 ES6 stands for ECMAScript 6. ECMAScript was created to standardize JavaScript, and ES6 is the 6th version of ECMAScript, it was published in 2015, and is also known as ECMAScript 2015.
 
