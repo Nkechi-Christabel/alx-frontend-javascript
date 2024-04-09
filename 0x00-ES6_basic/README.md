@@ -1,5 +1,9 @@
 # 0x00. ES6 Basics
 
+<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/08806026ef621f900121.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240409%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240409T090318Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=bf5678c5bfea83b7f46f33c788984b9b3b1f98a46dae4040f4e56c559536e854" alt="arrow functions" width="100%" />
+
+ES6 stands for ECMAScript 6. ECMAScript was created to standardize JavaScript, and ES6 is the 6th version of ECMAScript, it was published in 2015, and is also known as ECMAScript 2015.
+
 ## Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
@@ -37,23 +41,25 @@ Read or watch:
 - Your code will be tested using the `Jest` Testing Framework
 - Your code will be analyzed using the linter `ESLint` along with specific rules that we’ll provide
 
-## Setup
+## Work environment setup
 
-### Install NodeJS 12.22.x
+### Install NodeJS 12.11.x
+
+(in your home directory):
 
 ```console
-foo@pop-os:~$ curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
-foo@pop-os:~$ sudo bash nodesource_setup.sh
-foo@pop-os:~$ sudo apt install nodejs -y
+curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt install nodejs -y
 ```
 
 ### Check version
 
 ```console
-foo@pop-os:~$ nodejs -v
-v12.22.1
-foo@pop-os:~$ npm -v
-6.14.12
+$ nodejs -v
+v12.11.1
+$ npm -v
+6.11.3
 ```
 
 ### Install Jest, Babel, and ESLint
@@ -66,7 +72,6 @@ Add the files below to your project directory
 
 <details>
 <summary>package.json</summary>
-```json
 {
   "scripts": {
     "lint": "./node_modules/.bin/eslint",
@@ -86,12 +91,10 @@ Add the files below to your project directory
     "jest": "^24.9.0"
   }
 }
-```
 </details>
 
 <details>
 <summary>babel.config.js</summary>
- ```js
 module.exports = {
   presets: [
     [
@@ -104,12 +107,10 @@ module.exports = {
     ],
   ],
 };
- ```
  </details>
 
 <details>
 <summary>.eslintrc.js</summary>
-```js
 module.exports = {
   env: {
     browser: false,
@@ -145,12 +146,11 @@ module.exports = {
     }
   ]
 };
-```
 </details>
 
 ---
 
-## Files:card_file_box:
+## Files:
 
 ### [0. Const or let?](./0-constants.js)
 
