@@ -1,6 +1,6 @@
 # 0x00. ES6 Basics
 
-<img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*8nfBRAssY0DuETYwdwyqqw.png" alt-"ES6" width="100%" />
+<img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*8nfBRAssY0DuETYwdwyqqw.png" alt="ES6" width="100%" />
 
 ES6 stands for ECMAScript 6. ECMAScript was created to standardize JavaScript, and ES6 is the 6th version of ECMAScript, it was published in 2015, and is also known as ECMAScript 2015.
 
