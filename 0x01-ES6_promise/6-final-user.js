@@ -7,8 +7,8 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
       status: 'fulfilled',
       value,
     })))
-    .catch((error) => [{
-      status: 'rejected',
-      value: error,
-    }]);
+    .catch((error) => [
+      { status: 'rejected', value: error },
+      { status: 'rejected', value: error },
+    ]);
 }
