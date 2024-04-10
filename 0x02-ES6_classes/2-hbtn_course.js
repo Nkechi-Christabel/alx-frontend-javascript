@@ -1,8 +1,8 @@
 export default class HolbertonCourse {
   constructor(name, length, students) {
     this._name = typeof name === 'string' && name;
-    if (typeof length === 'number' && !isNaN(length)) this._length = length;
-    else throw new TypeError('Length must be a valid number');
+    if (typeof length === 'number') this._length = length;
+    else throw new TypeError('Length must be a number');
     this._students = Array.isArray(students) && students;
   }
 
