@@ -30,7 +30,7 @@ A Promise is a proxy for a value not necessarily known when the promise is creat
 - Your code will be verified against lint using ESLint
 - All of your functions must be exported
 
-## Work environment setup
+## Setup
 
 ### Install NodeJS 12.11.x
 
