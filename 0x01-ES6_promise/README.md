@@ -1,5 +1,5 @@
 # ES6 Promises
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/75862d67ca51a042003c.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240410%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240410T012057Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=16fa45fe3a88c18c5f167802969beaf05937abaaac95d7e7725c03a788d8d1d9" alt="async" width="100%" />
+<img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*_WSE_FQrGvNyEZEp7-PQow.png" alt="async" width="100%" />
 
 A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
 
