@@ -12,7 +12,7 @@ export default class Pricing {
 
   set amount(newAmount) {
     if (typeof newAmount === 'number') this._amount = newAmount;
-    else throw new Error('Amount must be a number');
+    else throw TypeError('Amount must be a number');
   }
 
   get currency() {
@@ -21,7 +21,7 @@ export default class Pricing {
 
   set currency(newCurrency) {
     if (newCurrency instanceof Currency) this._currency = newCurrency;
-    else throw new Error('Currency must be an instance of Currency');
+    else throw TypeError('Currency must be an instance of Currency');
   }
 
   displayFullPrice() {
@@ -30,7 +30,7 @@ export default class Pricing {
 
   static convertPrice(amount, conversionRate) {
     if (typeof amount !== 'number' || typeof conversionRate !== 'number') {
-      throw new Error('Amount and conversionRate must be numbers');
+      throw new TypeError('Amount and conversionRate must be numbers');
     }
     return amount * conversionRate;
   }
