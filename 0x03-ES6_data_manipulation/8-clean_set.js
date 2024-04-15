@@ -1,5 +1,5 @@
 export default function cleanSet(set, startString) {
-  return (set && startString && startString !== '')
-    ? [...set].filter((str) => str.match(/^(bon)/))
+  return (startString && startString !== '')
+    ? [...set].filter((str) => str.startsWith(startString))
       .map((word) => word.split(startString)[1]).join('-') : '';
 }
