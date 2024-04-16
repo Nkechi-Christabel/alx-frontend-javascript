@@ -1,5 +1,5 @@
 export default function cleanSet(set, startString) {
-  return (startString && startString !== ' ' && typeof startString === 'string')
+  return (startString && startString !== '')
     ? [...set].filter((str) => str && str.startsWith(startString))
-      .map((word) => word.substring(startString.length)).join('-') : ' ';
+      .map((word) => word.substring(startString.length)).join('-') : '';
 }
